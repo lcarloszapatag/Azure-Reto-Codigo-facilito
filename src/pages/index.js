@@ -1,18 +1,16 @@
 import Link from "next/link";
 import dbConnect from "../lib/dbConnect";
 import Pet from "../models/Pet";
+
+
 // TODO: Import Hours component
-import Hours from '../components/Hours';
+
 const Index = ({ pets }) => {
 
   return (
     <>
 
-      {/* TODO: Display Hours component */
-      
-      <Hours />
-      
-      }
+      {/* TODO: Display Hours component */}
 
       {/* Create a card for each pet */}
       {pets.map((pet) => (
