@@ -1,5 +1,5 @@
 // Placeholder to host a component
-mport React from "react";
+import React from "react";
 
     const Hours = () => {
         // add logic
